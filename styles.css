@@ -1,0 +1,119 @@
+html, body {
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.banner {
+    background-color: midnightblue;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.bannertext {
+    color: white;
+    padding-top: 30px;
+    margin-right: 10px;
+}
+
+h6 {
+    float: right;
+}
+
+nav {
+    background-color: midnightblue;
+}
+
+.search-container button {
+    float: right;
+    background: goldenrod;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.search-container {
+    padding: 30px;
+    padding-left: 350px;
+}
+
+.yellowtext {
+    color: goldenrod;
+}
+
+.imagecontainer {
+    width: 100rem;
+    height: 30em;
+    background-color: #010c3b;
+    padding-top: 80px;
+}
+
+.imagecontainer img{
+    width: 700px;
+    height: auto;
+    padding-right: 0;
+}
+@media only screen and (max-width: 900px) {
+    .imagecontainer img {
+        width: 0;
+    }
+    .imagecontainer h1{
+        color: white;
+        padding-top: 10px;
+        font-size: large;
+        text-align: center;
+    }
+    .imagecontainer p {
+        color: white;
+        font-size: medium;
+        text-align: center;
+    }
+    .imagecontainer {
+        justify-content: left !important;
+    }
+    .imagecontainer button {
+        position: center;
+    }
+
+    .search-container button {
+        width: 10rem;
+        padding: 0;
+    }
+
+    .search-container {
+        width: 90rem !important;
+        padding-left: 0;
+    }
+    .covidimg img {
+        height: 0 !important;
+        width: 0 !important;
+    }
+}
+
+.imagecontainer h1{
+    color: white;
+    padding-top: 20px;
+}
+
+.imagecontainer p {
+    color: white;
+}
+
+.covidimg img {
+    height: 15rem;
+    width: auto;
+}
+.covidsection {
+    padding-right: 10rem;
+    padding-left: 10rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: auto;
+    height: auto;
+}
+
